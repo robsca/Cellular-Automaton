@@ -11,7 +11,7 @@ import plotly.graph_objects as go
 
 st.sidebar.title('Cellular Automata')
 
-size_array = st.sidebar.slider('Size array', 1, 1000, 70)
+size_array = st.sidebar.slider('Size array', 1, 1000, 180)
 epochs = st.sidebar.slider('Epochs', 1, 1000, 250)
 rule_n = st.select_slider('Select the rule', options = list(range(256)), value = 156)
 
