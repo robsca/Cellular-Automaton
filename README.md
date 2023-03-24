@@ -1,3 +1,4 @@
+<img width="1440" alt="Screenshot 2023-03-24 at 13 56 49" src="https://user-images.githubusercontent.com/66328669/227540932-92dc0847-6bdd-4f02-b12d-ca2cb1669795.png">
 
 ### SETUP
 
