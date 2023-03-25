@@ -15,7 +15,7 @@ size_array = st.sidebar.slider('Size array', 1, 1000, 180)
 epochs = st.sidebar.slider('Epochs', 1, 1000, 250)
 rule_n = st.select_slider('Select the rule', options = list(range(256)), value = 156)
 
-with st.expander('Customize Array', expanded = True):
+with st.expander('Customize Array', expanded = False):
     # row is an nnp array of 0 size 10, 1
     row = np.zeros(size_array) 
     selectors = st.multiselect('Select the initial state', list(range(size_array)), default = [int(size_array/2)] ) # set mmiddle value to 1
